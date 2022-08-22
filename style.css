@@ -1,0 +1,242 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+/* body
+{
+    background-color: #2e1d26;
+    background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+
+} */
+.navbar
+{
+    position: sticky;
+    top : 0;
+    z-index: 10;
+}
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.navbar-text
+{
+    font-size: 1.5rem;
+}
+
+.home-section
+{
+    margin: 2rem;
+    padding: 2rem 10rem;
+}
+
+.home-section-heading
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 4rem;
+}
+
+.home-section-heading span
+{
+    color: rgb(127, 127, 131);
+}
+
+.home-section-content
+{
+    margin-top: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.typewrite
+{
+    font-family: 'Nunito Sans', sans-serif !important;
+    text-decoration: none;
+    pointer-events: none;
+    color: #0e8ee2;
+}
+
+
+.mine-image{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 6rem;
+}
+
+hr
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5rem;
+    width: 75%;
+    border-top: 7px solid rgb(0, 0, 0) !important;
+}
+
+.about-section
+{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.about-section h1
+{
+    font-size: 4rem;
+}
+
+.about-section-content
+{
+    padding: 1rem 8rem;
+}
+.about-section-content p
+{
+    word-wrap: break-word;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.about-section-content span
+{
+    color: rgb(231, 25, 25);
+}
+
+.skill-section
+{
+    border: 9px solid rgb(255, 51, 0);
+    border-radius: 10%;
+}
+
+
+i
+{
+    color: rgb(13, 214, 228);
+    font-size: 6rem;
+    padding: 2rem;
+}
+
+
+.skill-education-content h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.education-section
+{
+    border: 9px solid rgb(255, 51, 0);
+    border-radius: 10%;
+}
+
+.education
+{
+    padding: 2rem;
+    line-height: 1.15rem;
+    color: rgb(13, 214, 228);
+}
+
+.institution
+{
+    margin-bottom: 1.1rem;
+}
+
+.institution-name
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.institution p
+{
+    font-style: italic;
+}
+
+.state-name
+{
+    margin-bottom: 0;
+}
+
+.projects-section
+{
+    text-align: center;
+}
+
+.project-heading
+{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-img
+{
+    margin: auto;
+    height: 500px;
+}
+
+.carousel-btn
+{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.carousel-caption-heading
+{
+    color: rgb(1, 0, 0);
+    font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.carousel-caption a
+{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(2, 1, 1);
+}
+
+
+.contact-section
+{
+    align-items: center;
+
+    text-align: center;
+}
+
+.contact-section i
+{
+    color: rgb(9, 89, 238);
+}
+.col i:hover
+{
+    /* border-radius: 5%; */
+    font-size: 92px;
+}
+
+.contact-section i:hover
+{
+    border-radius: 5%;
+    font-size: 7em;
+}
+.carousel-inner a{
+    /* border: 2px solid red; */
+    padding: 8px;
+    border-radius: 25px;
+    background: black;
+    color: white;
+}
+.carousel-inner a:hover{
+    text-decoration: none;
+    background-color: rgb(27, 27, 27);
+
+}
+.carousel-inner h1{
+    font-size: 3em;
+    
+    color: rgb(246, 250, 0);
+    
+}
+.left{
+    margin-left: 25%;
+}
+.mine-image{
+    height: 50vh;
+}
